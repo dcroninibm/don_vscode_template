@@ -14,14 +14,14 @@ required:
 
 
 # Github repos
-github-repo-vue:
+github-repo-vscode:
   service_id: githubpublic
   parameters:
 #    repo_name: "{{github.parameters.open-source-repo_name}}"
 #    repo_url: "{{github.parameters.open-source-repo_URL}}"
 #    type: new | clone | link | fork
-    repo_name: "vue"
-    repo_url: "https://github.com/vuejs/vue.git"
+    repo_name: "vscode"
+    repo_url: "https://github.com/microsoft/vscode.git"
     type: link
     has_issues: true
   hidden: [form, description]
